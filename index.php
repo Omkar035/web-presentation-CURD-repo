@@ -92,7 +92,7 @@ require 'dbcon.php';
                                                     class="btn btn-warning btn-sm">Edit</a>
                                                 <form action="code.php" method="POST" class="d-inline">
                                                     <button type="submit" name="delete_data" value="<?= $presentation['id']; ?>"
-                                                        class="btn btn-danger btn-sm">Delete</button>
+                                                        class="btn btn-danger btn-sm" disabled >Delete</button>
                                                 </form>
                                             </td>
                                         </tr>
